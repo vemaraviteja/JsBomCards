@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="" alt="">
+    <script>
+        // var g= localStorage.getItem("imgg");
+        // var im= document.createElement("img");
+        // document.body.appendChild(im);
+        // im.setAttribute("src",g);
+        // im.style.width="200px";
+        // document.body.appendChild(g);
+      
+        var teja = localStorage.getItem("imgg");
+        var im = document.getElementsByTagName("img");
+        im[0].setAttribute("src",teja);
+        im[0].style.width="150px";
+        im[0].style.heigth="150px";
+
+        // var imgg=document.getElementsByTagName("img");
+        // // a=window.localStorage.getItem("image");
+        // // console.log(a);
+        // imgg[0].src=window.localStorage.getItem("image[1]");
+    </script>
+    
+</body>
+</html>
